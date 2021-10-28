@@ -1,0 +1,14 @@
+package ejerciciosprimerparcial;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class ejercicio1 {
+    public static void main(String[] args) {
+		ArrayList<Integer> numeros = (ArrayList<Integer>) Arrays.asList(5,1,1,9,7,2,6,10);
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Ingrese el numero que desea buscar");
+		int numBuscado = scan.nextInt();
+	}
+}

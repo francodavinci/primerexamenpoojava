@@ -1,0 +1,44 @@
+package primerparcial;
+
+import java.util.ArrayList;
+
+public class Cine {
+	//atributos
+	private String nombre;
+	private String ciudad;
+	private ArrayList<Pelicula> peliculas;
+	
+	//constructores
+	public Cine(String nombre, String ciudad) {
+		super();
+		this.nombre = nombre;
+		this.ciudad = ciudad;
+	}
+
+
+	public Cine(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+	
+	/*
+	 * . Adicional, un método que permita agregar un objeto del
+    tipo Pelicula al atributo peliculas y otro método que reciba un objeto Pelicula como parámetro y
+    elimine la Pelicula del atributo pelicula. Un método llamado mostrarPeliculas que imprima en la
+    primera linea el siguiente mensaje por pantalla con el atributo nombre de la clase Pelicula `Peliculas
+    de la cartelera en nombre´ seguido de cada objeto Pelicula en el atributo peliculas (sugerencia: use
+    un bucle for en el atributo peliculas de la clase Cine)
+	 */
+	
+	public void agregarPeliculas(Pelicula pelicula) {
+		this.peliculas.add(pelicula);
+	}
+	
+	public void eliminarPelicula(Pelicula pelicula) {
+		this.peliculas.remove(pelicula);
+	}
+	
+	
+	
+	
+}

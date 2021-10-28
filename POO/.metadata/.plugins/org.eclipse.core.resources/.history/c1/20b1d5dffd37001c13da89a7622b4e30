@@ -1,0 +1,43 @@
+package primerparcial;
+
+import java.util.ArrayList;
+
+public class Pelicula {
+	// atributos
+	private String titulo;
+	private int duracion;
+	private int anio;
+	private String categoria;
+	private ArrayList<Actor> actores;
+	
+	//constructores
+	public Pelicula(String titulo, int duracion, int anio, String categoria) {
+		this.titulo = titulo;
+		this.duracion = duracion;
+		this.anio = anio;
+		this.categoria = categoria;
+	}
+	
+	public Pelicula (String titulo) {
+		this.titulo=titulo;
+	}
+	
+	//metodos
+	/*
+	 * Adicional, un método que permita agregar un
+     objeto del tipo Actor al atributo actores y otro método que reciba un objeto Actor como parámetro y
+     elimine el Actor del atributo actores
+	 */
+	
+	public void agregarActor(Actor actor){
+		this.actores.add(actor);
+	}
+	
+	public void eliminarActor(Actor actor) {
+		this.actores.remove(actor);
+	}
+	
+	
+	
+	
+}

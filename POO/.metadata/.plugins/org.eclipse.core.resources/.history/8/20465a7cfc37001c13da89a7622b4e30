@@ -1,0 +1,24 @@
+package primerparcial;
+
+import java.util.ArrayList;
+
+public class Pelicula {
+	// atributos
+	private String titulo;
+	private int duracion;
+	private int anio;
+	private String categoria;
+	private ArrayList<Actor> actores;
+	
+	//constructores
+	public Pelicula(String titulo, int duracion, int anio, String categoria) {
+		this.titulo = titulo;
+		this.duracion = duracion;
+		this.anio = anio;
+		this.categoria = categoria;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,8 @@
+package ejerciciosprimerparcial.poo;
+
+public class Alimento extends Producto {
+    private String productor;
+    private String distribuidor;
+    
+    
+}

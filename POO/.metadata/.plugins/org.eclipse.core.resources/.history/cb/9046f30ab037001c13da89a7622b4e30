@@ -1,0 +1,9 @@
+package ejerciciosprimerparcial.poo;
+
+public class Test {
+   public static void main(String[] args) {
+	Producto p1 = new Producto("Yerba",155);
+	p1.rebajarPrecio(10);
+	System.out.println(p1.toString());
+}
+}

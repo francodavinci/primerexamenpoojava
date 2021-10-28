@@ -1,0 +1,29 @@
+package ejerciciosprimerparcial;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class ejercicio1 {
+    public static void main(String[] args) {
+		List<Integer> numeros =Arrays.asList(5,1,1,9,7,2,6,10);
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Ingrese el numero que desea buscar");
+		System.out.println("Deberas intentar con los siguientes numeros 7,10,1,0,-4,8");
+		int numBuscado = scan.nextInt();
+		int count = 0 ; 
+		while(count<numeros.size()) {
+			count++;
+			for (Integer numero : numeros) {
+			if(numero==numBuscado) {
+				System.out.printf("El numero se encuentra en la lista , intentaste con el numero %d",numBuscado);
+			}
+			else {
+				System.out.printf("El numero no se encuentra en la lista, intentaste con el numero %d ",numBuscado);
+			}
+		}
+		}
+		
+	}
+}

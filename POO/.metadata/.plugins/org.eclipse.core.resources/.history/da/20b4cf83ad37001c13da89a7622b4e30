@@ -1,0 +1,14 @@
+package ejerciciosprimerparcial.poo;
+
+public class Producto {
+     //atributos
+	
+	private String nombre;
+
+	public Producto(String nombre) {
+		this.nombre = nombre;
+	}
+	private double precio;
+	
+	
+}

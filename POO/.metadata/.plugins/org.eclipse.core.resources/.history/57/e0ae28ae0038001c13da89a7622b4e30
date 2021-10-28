@@ -1,0 +1,23 @@
+package primerparcial;
+
+public class Main {
+	public static void main(String[] args) {
+		/*
+		 * Cree una clase Main, con un método main e instancie cuatro objetos Actor con
+		 * los siguientes identificadores: primerActor, segundoActor, tercerActor,
+		 * cuartoActor (Nota: use su primer y segundo nombre para el atributo nombre,
+		 * use sus apellidos para el atributo apellido, asigne 1980 en anioNacimiento y
+		 * asigne “Argentina” en el atributo pais). Instacie dos objetos Pelicula con
+		 * los identificadores: primeraPelicula ("Titanic", 120, 2000, "Romance") y
+		 * segundaPelicula ("El Rey
+		 * León", 120, 2000, "Infantil"). Y un objeto Cine llamado nuevoCine ("Nuevo
+		 * Cine", "Buenos Aires").
+		 */
+		
+		Actor primerActor = new Actor();
+		Actor segundoActor = new Actor();
+		Actor tercerActor = new Actor();
+		Actor cuartoActor = new Actor();
+		
+	}
+}

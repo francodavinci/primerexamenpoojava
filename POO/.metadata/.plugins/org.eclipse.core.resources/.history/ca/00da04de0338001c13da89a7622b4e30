@@ -1,0 +1,15 @@
+package ejerciciosprimerparcial.poo;
+
+public class Libro extends Producto {
+	
+   private String isbn;
+   
+   
+   public Libro(String nombre, double precio, String isbn) {
+		super(nombre, precio);
+		this.isbn=isbn;
+	}
+
+    
+   
+}

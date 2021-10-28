@@ -1,0 +1,21 @@
+package primerparcial;
+
+public class Actor {
+	// atributos
+	private String nombre;
+	private String apellido;
+	private String pais;
+	private int anioNacimiento;
+
+	// constructor
+	public Actor(String nombre, String apellido, String pais, int anioNacimiento) {
+		super();
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.pais = pais;
+		this.anioNacimiento = anioNacimiento;
+	}
+
+	// metodo
+
+}

@@ -1,0 +1,15 @@
+package ejerciciosprimerparcial.poo;
+
+public class Adorno extends Producto {
+
+	public Adorno(String nombre, double precio) {
+		super(nombre, precio);
+	}
+	
+	@Override
+	public void rebajarPrecio(double porcentaje) {
+		porcentaje=0;
+		
+	}
+
+}
